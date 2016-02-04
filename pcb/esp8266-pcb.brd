@@ -1673,7 +1673,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <elements>
 <element name="BMP180_CON" library="SparkFun-Connectors" package="RJ11-6" value="RJ11" x="36.322" y="40.894" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08590" x="-3.048" y="49.784" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.862" y="38.354" size="0.4064" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="42.164" y="38.1" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="38.862" y="39.624" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U$2" library="OK1CDJ-E6" package="DC-DC" value="DC-DC-SMALL" x="43.688" y="2.032" smashed="yes" rot="R90"/>
@@ -1770,6 +1770,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="43.18" y="27.432" extent="1-16" drill="3.2"/>
 <via x="35.814" y="2.54" extent="1-16" drill="3.2"/>
 <via x="2.54" y="18.542" extent="1-16" drill="3.2"/>
+<via x="12.7" y="32.766" extent="1-16" drill="0.6"/>
+<via x="4.572" y="35.052" extent="1-16" drill="0.6"/>
+<via x="14.224" y="37.338" extent="1-16" drill="0.6"/>
+<via x="27.178" y="38.354" extent="1-16" drill="0.6"/>
+<via x="36.068" y="37.084" extent="1-16" drill="0.6"/>
+<via x="26.67" y="31.242" extent="1-16" drill="0.6"/>
+<via x="32.512" y="24.892" extent="1-16" drill="0.6"/>
+<via x="37.592" y="29.464" extent="1-16" drill="0.6"/>
+<via x="38.608" y="24.13" extent="1-16" drill="0.6"/>
+<via x="35.56" y="14.732" extent="1-16" drill="0.6"/>
+<via x="41.402" y="10.922" extent="1-16" drill="0.6"/>
+<via x="33.782" y="6.858" extent="1-16" drill="0.6"/>
+<via x="25.908" y="3.556" extent="1-16" drill="0.6"/>
+<via x="15.494" y="7.874" extent="1-16" drill="0.6"/>
+<via x="6.858" y="8.636" extent="1-16" drill="0.6"/>
+<via x="2.286" y="9.144" extent="1-16" drill="0.6"/>
+<via x="11.176" y="15.24" extent="1-16" drill="0.6"/>
+<via x="7.366" y="16.764" extent="1-16" drill="0.6"/>
+<via x="8.128" y="23.622" extent="1-16" drill="0.6"/>
+<via x="4.826" y="27.178" extent="1-16" drill="0.6"/>
+<via x="11.684" y="25.908" extent="1-16" drill="0.6"/>
+<via x="19.558" y="16.51" extent="1-16" drill="0.6"/>
+<via x="24.384" y="13.462" extent="1-16" drill="0.6"/>
+<via x="28.194" y="34.544" extent="1-16" drill="0.6"/>
+<via x="22.352" y="36.576" extent="1-16" drill="0.6"/>
+<via x="12.446" y="2.54" extent="1-16" drill="0.6"/>
+<via x="38.862" y="43.434" extent="1-16" drill="0.6"/>
+<via x="8.89" y="32.004" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="K"/>
