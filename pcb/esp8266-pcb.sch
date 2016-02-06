@@ -17676,8 +17676,14 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="+3V1" gate="G$1" x="93.98" y="104.14"/>
 <instance part="+3V2" gate="G$1" x="243.84" y="129.54"/>
 <instance part="+3V3" gate="G$1" x="104.14" y="40.64"/>
-<instance part="T1" gate="G$1" x="154.94" y="134.62" rot="R180"/>
-<instance part="T2" gate="G$1" x="154.94" y="154.94" rot="MR0"/>
+<instance part="T1" gate="G$1" x="154.94" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="129.54" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="165.1" y="129.54" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="T2" gate="G$1" x="154.94" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="157.48" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="165.1" y="160.02" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="R2" gate="G$1" x="167.64" y="154.94"/>
 <instance part="R3" gate="G$1" x="167.64" y="134.62"/>
 <instance part="ICSP" gate="A" x="33.02" y="129.54"/>
@@ -17907,6 +17913,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="PROG" gate="S" pin="2"/>
 <wire x1="45.72" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="PROG" gate="S" pin="1"/>
+<wire x1="55.88" y1="154.94" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<junction x="55.88" y="152.4"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
