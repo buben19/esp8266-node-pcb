@@ -34548,20 +34548,6 @@ DIN A4, landscape with location and doc. field</description>
 <label x="154.94" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO13" class="0">
-<segment>
-<pinref part="MCU" gate="G$1" pin="GPIO13"/>
-<wire x1="121.92" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="111.76" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO12" class="0">
-<segment>
-<pinref part="MCU" gate="G$1" pin="GPIO12"/>
-<wire x1="121.92" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="111.76" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
