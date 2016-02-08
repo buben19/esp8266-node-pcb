@@ -7262,11 +7262,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="4.953" y="21.463" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="8.509" y="17.907" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R2" library="rcl" package="R0805" value="12k" x="10.414" y="20.066" smashed="yes" rot="MR180">
+<element name="R2" library="rcl" package="R0805" value="12K" x="10.414" y="20.066" smashed="yes" rot="MR180">
 <attribute name="NAME" x="9.779" y="22.352" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="9.779" y="22.606" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="rcl" package="R0805" value="12k" x="10.414" y="17.78" smashed="yes" rot="MR0">
+<element name="R3" library="rcl" package="R0805" value="12K" x="10.414" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11.811" y="15.494" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="11.049" y="15.24" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -7274,15 +7274,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="4.572" y="9.525" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="2.286" y="9.017" size="1.27" layer="27"/>
 </element>
-<element name="R4" library="rcl" package="R0805" value="470" x="11.684" y="9.906" smashed="yes" rot="R270">
+<element name="R4" library="rcl" package="R0805" value="470R" x="11.684" y="9.906" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.049" y="6.604" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="9.144" y="10.795" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R5" library="rcl" package="R0805" value="10k" x="39.37" y="26.924" smashed="yes" rot="MR270">
+<element name="R5" library="rcl" package="R0805" value="10K" x="39.37" y="26.924" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.735" y="24.892" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="41.91" y="27.559" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R6" library="rcl" package="R0805" value="10k" x="37.338" y="26.924" smashed="yes" rot="MR270">
+<element name="R6" library="rcl" package="R0805" value="10K" x="37.338" y="26.924" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.687" y="24.892" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="39.878" y="27.559" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -7374,9 +7374,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="BMP180_CON" pad="5"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R6" pad="2"/>
-<contactref element="R5" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="39.37" y1="25.974" x2="37.338" y2="25.974" width="0.6096" layer="16"/>
 <wire x1="37.338" y1="25.974" x2="34.986" y2="25.974" width="0.6096" layer="16"/>
 <wire x1="34.986" y1="25.974" x2="32.639" y2="28.321" width="0.6096" layer="16"/>
 <wire x1="32.639" y1="28.321" x2="32.004" y2="28.956" width="0.6096" layer="16"/>
@@ -7407,6 +7405,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.414" y1="33.274" x2="9.525" y2="32.385" width="0.6096" layer="16"/>
 <via x="9.525" y="32.385" extent="1-16" drill="0.6"/>
 <wire x1="10.16" y1="26.162" x2="7.112" y2="23.114" width="0.6096" layer="1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="39.37" y1="25.974" x2="37.338" y2="25.974" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="T2" pad="B"/>
