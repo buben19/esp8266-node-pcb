@@ -34214,7 +34214,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="OK1CDJ-E6" deviceset="DC-DC-SMALL" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="220uF"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
+<part name="PWRJACK" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM" value="RED"/>
 <part name="PROG" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
@@ -34254,7 +34254,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="GND2" gate="1" x="243.84" y="101.6"/>
 <instance part="U$2" gate="G$1" x="40.64" y="12.7"/>
 <instance part="C1" gate="G$1" x="73.66" y="27.94"/>
-<instance part="JP1" gate="G$1" x="20.32" y="17.78"/>
+<instance part="PWRJACK" gate="G$1" x="20.32" y="17.78"/>
 <instance part="GND3" gate="1" x="78.74" y="15.24"/>
 <instance part="LED1" gate="G$1" x="38.1" y="83.82" rot="MR270"/>
 <instance part="PROG" gate="S" x="60.96" y="154.94"/>
@@ -34325,8 +34325,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="160.02" y1="83.82" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="GNDBREAK"/>
-<pinref part="JP1" gate="G$1" pin="GND"/>
+<pinref part="PWRJACK" gate="G$1" pin="GNDBREAK"/>
+<pinref part="PWRJACK" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
@@ -34352,7 +34352,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="PWR"/>
+<pinref part="PWRJACK" gate="G$1" pin="PWR"/>
 <wire x1="22.86" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="IN"/>
