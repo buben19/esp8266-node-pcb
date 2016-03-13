@@ -34239,6 +34239,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="PWR" library="jumper" deviceset="JP1Q" device=""/>
 <part name="GOLD_ORB_SM1" library="NBitWonder" deviceset="OSHWLOGO" device="_GOLD_ORB_LG"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34246,11 +34248,11 @@ DIN A4, landscape with location and doc. field</description>
 <text x="33.02" y="99.06" size="1.778" layer="97">Activity LED</text>
 <text x="20.32" y="139.7" size="1.778" layer="97">Programmer</text>
 <text x="10.16" y="38.1" size="1.778" layer="97">Power supply</text>
-<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1</text>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector" ratio="10">v0.1.1</text>
 </plain>
 <instances>
 <instance part="BMP180_CON" gate="G$1" x="210.82" y="109.22"/>
-<instance part="GND1" gate="1" x="160.02" y="76.2"/>
+<instance part="GND1" gate="1" x="160.02" y="68.58"/>
 <instance part="GND2" gate="1" x="243.84" y="101.6"/>
 <instance part="U$2" gate="G$1" x="40.64" y="12.7"/>
 <instance part="C1" gate="G$1" x="73.66" y="27.94"/>
@@ -34285,6 +34287,8 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="PWR" gate="A" x="91.44" y="30.48" rot="R270"/>
 <instance part="GOLD_ORB_SM1" gate="G$1" x="243.84" y="165.1"/>
+<instance part="R7" gate="G$1" x="165.1" y="78.74" rot="R270"/>
+<instance part="GND7" gate="1" x="165.1" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -34322,7 +34326,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="MCU" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="152.4" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="83.82" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="83.82" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PWRJACK" gate="G$1" pin="GNDBREAK"/>
@@ -34341,6 +34345,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="38.1" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="132.08" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="165.1" y1="73.66" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -34568,6 +34577,14 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="73.66" y="30.48"/>
 <pinref part="PWR" gate="A" pin="1"/>
 <wire x1="73.66" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="MCU" gate="G$1" pin="GPIO15"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="86.36" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

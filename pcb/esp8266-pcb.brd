@@ -158,7 +158,7 @@
 <wire x1="45.72" y1="0" x2="45.72" y2="45.72" width="0" layer="20"/>
 <wire x1="45.72" y1="45.72" x2="0" y2="45.72" width="0" layer="20"/>
 <wire x1="0" y1="45.72" x2="0" y2="0" width="0" layer="20"/>
-<text x="12.446" y="44.196" size="1.4224" layer="26" font="vector" ratio="15" rot="MR180" align="center">IOT BAROMETER v0.1</text>
+<text x="12.7" y="44.196" size="1.4224" layer="26" font="vector" ratio="15" rot="MR180" align="center">IOT BAROMETER v0.1.1</text>
 <text x="12.446" y="42.418" size="1.27" layer="26" font="vector" ratio="15" rot="MR0" align="center">ivo.slanina@gmail.com</text>
 </plain>
 <libraries>
@@ -7291,6 +7291,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="26.543" y="19.304" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="GOLD_ORB_SM1" library="NBitWonder" package="OSHW0" value="OSHWLOGO_GOLD_ORB_LG" x="24.638" y="19.05" rot="MR0"/>
+<element name="R7" library="rcl" package="R0805" value="12K" x="1.778" y="-7.366"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -7352,6 +7353,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="12.446" y="2.54" extent="1-16" drill="0.6"/>
 <via x="38.862" y="43.434" extent="1-16" drill="0.6"/>
 <via x="8.382" y="31.75" extent="1-16" drill="0.6"/>
+<contactref element="R7" pad="2"/>
+<wire x1="3.3528" y1="2.3114" x2="2.728" y2="-7.366" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="K"/>
@@ -7545,6 +7548,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.386" y1="20.574" x2="23.622" y2="20.574" width="0.6096" layer="16"/>
 <wire x1="23.622" y1="20.574" x2="23.622" y2="18.034" width="0.6096" layer="16"/>
 <wire x1="23.622" y1="18.034" x2="22.352" y2="16.764" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="MCU" pad="2"/>
+<contactref element="R7" pad="1"/>
+<wire x1="0.828" y1="-7.366" x2="18.74" y2="25.082" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

@@ -10,3 +10,7 @@
  - Programming push button.
  - Jumper for enabling power supply module.
  - THT notification LED.
+
+## v0.1.1
+
+ - GPIO15 grounded with 12K resistor.
