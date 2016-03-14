@@ -14,3 +14,4 @@
 ## v0.1.1
 
  - GPIO15 grounded with 12K resistor.
+ - Board label changed to "ESP8266 NODE".
