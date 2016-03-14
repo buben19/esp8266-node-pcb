@@ -15,3 +15,4 @@
 
  - GPIO15 grounded with 12K resistor.
  - Board label changed to "ESP8266 NODE".
+ - THT notification LED replaced with SMD 1206 package.
