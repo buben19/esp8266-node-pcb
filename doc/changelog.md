@@ -1,4 +1,4 @@
-# Changelog
+# ESP8266 Node changelog
 
 ## v0.1
 
