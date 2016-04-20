@@ -14,6 +14,7 @@ Design of esp8266 board PCB. This should be base design for esp8266 IoT devices.
  - RJ-11 connector for connecting various sensors.
  - Notification LED.
  - Intended to be manufactured by [dirtypcbs.com](http://dirtypcbs.com/).
+ - AVR like ISP header for in circuit programming.
 
 ## Images
 
@@ -22,3 +23,7 @@ Design of esp8266 board PCB. This should be base design for esp8266 IoT devices.
 ![Bottom view](img/node-bottom.jpg "Bottom view")
 
 ![Board design](img/board.png "Node board design")
+
+## Get board
+
+You can order PCB on this [link](http://dirtypcbs.com/view.php?share=19763&accesskey=6e3f3d88e4883da71c13e3f088d2c618).
