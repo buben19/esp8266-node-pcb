@@ -21,4 +21,4 @@
  - Added ESP8266 RX and TX pins to unused RJ-11 pins (1 and 6).
  - GPIO0 is used only for entering programming mode. Not used in RJ-11 connector.
  - RJ-11 is connected to GPIO2 and GPIO14 pins.
- - ICSP voltage pin is connected directly to 3V3, not to VIN.
+ - ICSP voltage pin is connected to 3-pin jumper. User can choose to connect it to 3V3, VIN or disconnect it.
