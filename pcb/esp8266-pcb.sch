@@ -34667,7 +34667,7 @@ http://dangerousprototypes.com</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="ICSPPWR" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -34738,7 +34738,7 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="223.52" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="208.28" y="129.54"/>
-<instance part="JP1" gate="A" x="68.58" y="132.08"/>
+<instance part="ICSPPWR" gate="A" x="68.58" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -34825,7 +34825,7 @@ http://dangerousprototypes.com</description>
 <label x="27.94" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="ICSPPWR" gate="A" pin="3"/>
 <wire x1="66.04" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="58.42" y="121.92" size="1.778" layer="95" rot="R90"/>
@@ -34875,7 +34875,7 @@ http://dangerousprototypes.com</description>
 <wire x1="233.68" y1="142.24" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="ICSPPWR" gate="A" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="66.04" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="134.62" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
@@ -35072,7 +35072,7 @@ http://dangerousprototypes.com</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="ISCP" gate="J" pin="+V"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="ICSPPWR" gate="A" pin="2"/>
 <wire x1="43.18" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
