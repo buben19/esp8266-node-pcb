@@ -34347,171 +34347,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="dp_devices">
-<description>Dangerous Prototypes Standard PCB sizes
-http://dangerousprototypes.com</description>
-<packages>
-<package name="HEADER_PRG_2X03">
-<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.02" diameter="1.632" shape="square"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.02" diameter="1.632"/>
-<pad name="3" x="0" y="-1.27" drill="1.02" diameter="1.632"/>
-<pad name="4" x="0" y="1.27" drill="1.02" diameter="1.632"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.02" diameter="1.632"/>
-<pad name="6" x="2.54" y="1.27" drill="1.02" diameter="1.632" first="yes"/>
-<text x="-3.81" y="2.8575" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-1.905" size="1.27" layer="21" font="vector">1</text>
-<text x="-5.08" y="0.635" size="1.27" layer="21" font="vector">2</text>
-<text x="4.445" y="-1.905" size="1.27" layer="21" font="vector">5</text>
-<text x="4.445" y="0.635" size="1.27" layer="21" font="vector">6</text>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="48"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="48"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="48"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="48"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="48"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="48"/>
-<polygon width="0.0634" layer="21">
-<vertex x="-2.54" y="-3.175"/>
-<vertex x="-3.175" y="-3.81"/>
-<vertex x="-1.905" y="-3.81"/>
-</polygon>
-</package>
-<package name="M2X3_SMD">
-<description>2x03 Straight male header SMD
-&lt;br&gt; Mfr no:5-146134-2
-&lt;br&gt; &lt;a href="http://www.digikey.com/product-search/en?x=0&amp;y=0&amp;lang=en&amp;site=us&amp;KeyWords=5-146134-2"&gt; 5-146134-2&lt;/a&gt;</description>
-<wire x1="-0.787" y1="2.44" x2="0.787" y2="2.44" width="0.1524" layer="51"/>
-<wire x1="-0.787" y1="-2.44" x2="0.787" y2="-2.44" width="0.1524" layer="51"/>
-<wire x1="-0.787" y1="-2.44" x2="-0.83" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="-0.83" y1="-2.44" x2="-1.27" y2="-1.15" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.15" x2="-0.83" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="-0.83" y1="2.44" x2="-0.787" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.145" x2="-1.025" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="-1.025" y1="1.145" x2="-1.025" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="-1.025" y1="-1.145" x2="-1.27" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="0.787" y1="2.44" x2="0.83" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="0.83" y1="2.44" x2="1.27" y2="1.15" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.15" x2="0.83" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="0.83" y1="-2.44" x2="0.787" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.145" x2="1.025" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="1.025" y1="-1.145" x2="1.025" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="1.025" y1="1.145" x2="1.27" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="-3.327" y1="2.44" x2="-1.753" y2="2.44" width="0.1524" layer="51"/>
-<wire x1="-3.327" y1="-2.44" x2="-1.753" y2="-2.44" width="0.1524" layer="51"/>
-<wire x1="-1.753" y1="2.44" x2="-1.71" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="-1.71" y1="2.44" x2="-1.27" y2="1.15" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.15" x2="-1.27" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.145" x2="-1.27" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.145" x2="-1.27" y2="-1.15" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.15" x2="-1.71" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="-1.71" y1="-2.44" x2="-1.753" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.145" x2="-1.515" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="-1.515" y1="-1.145" x2="-1.515" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="-1.515" y1="1.145" x2="-1.27" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="1.753" y1="2.44" x2="3.327" y2="2.44" width="0.1524" layer="51"/>
-<wire x1="1.753" y1="-2.44" x2="3.327" y2="-2.44" width="0.1524" layer="51"/>
-<wire x1="1.753" y1="-2.44" x2="1.71" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="1.71" y1="-2.44" x2="1.27" y2="-1.15" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.15" x2="1.27" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.145" x2="1.27" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.145" x2="1.27" y2="1.15" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.15" x2="1.71" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="1.71" y1="2.44" x2="1.753" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.145" x2="1.515" y2="1.145" width="0.1524" layer="21"/>
-<wire x1="1.515" y1="1.145" x2="1.515" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="1.515" y1="-1.145" x2="1.27" y2="-1.145" width="0.1524" layer="21"/>
-<wire x1="-3.327" y1="-2.44" x2="-3.81" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-2.44" x2="-3.81" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="2.44" x2="-3.327" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="3.327" y1="-2.44" x2="3.81" y2="-2.44" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-2.44" x2="3.81" y2="2.44" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="2.44" x2="3.327" y2="2.44" width="0.1524" layer="21"/>
-<smd name="1" x="-2.54" y="-2.605" dx="1.27" dy="3.56" layer="1"/>
-<smd name="3" x="0" y="-2.605" dx="1.27" dy="3.56" layer="1"/>
-<smd name="5" x="2.54" y="-2.605" dx="1.27" dy="3.56" layer="1"/>
-<smd name="6" x="2.54" y="2.605" dx="1.27" dy="3.56" layer="1"/>
-<smd name="4" x="0" y="2.605" dx="1.27" dy="3.56" layer="1"/>
-<smd name="2" x="-2.54" y="2.605" dx="1.27" dy="3.56" layer="1"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<rectangle x1="-0.32" y1="-1.59" x2="0.32" y2="-0.95" layer="51"/>
-<rectangle x1="2.22" y1="-1.59" x2="2.86" y2="-0.95" layer="51"/>
-<rectangle x1="-2.86" y1="-1.59" x2="-2.22" y2="-0.95" layer="51"/>
-<rectangle x1="-0.32" y1="0.95" x2="0.32" y2="1.59" layer="51"/>
-<rectangle x1="2.22" y1="0.95" x2="2.86" y2="1.59" layer="51"/>
-<rectangle x1="-2.86" y1="0.95" x2="-2.22" y2="1.59" layer="51"/>
-<rectangle x1="-0.32" y1="-3.71" x2="0.32" y2="-2.44" layer="51"/>
-<rectangle x1="2.22" y1="-3.71" x2="2.86" y2="-2.44" layer="51"/>
-<rectangle x1="-2.86" y1="-3.71" x2="-2.22" y2="-2.44" layer="51"/>
-<rectangle x1="-0.32" y1="2.44" x2="0.32" y2="3.71" layer="51" rot="R180"/>
-<rectangle x1="2.22" y1="2.44" x2="2.86" y2="3.71" layer="51" rot="R180"/>
-<rectangle x1="-2.86" y1="2.44" x2="-2.22" y2="3.71" layer="51" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PRG_ICSP_AVR">
-<wire x1="-8.89" y1="-5.08" x2="-8.89" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-8.89" y="5.842" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-0.254" y="3.302" size="1.27" layer="95" font="vector" ratio="12" rot="R180">MISO</text>
-<text x="-1.016" y="0.762" size="1.27" layer="95" font="vector" ratio="12" rot="R180">SCK</text>
-<text x="-1.016" y="-1.778" size="1.27" layer="95" font="vector" ratio="12" rot="R180">RST</text>
-<text x="4.826" y="3.302" size="1.27" layer="95" font="vector" ratio="12" rot="R180">+V</text>
-<text x="4.826" y="0.762" size="1.27" layer="95" font="vector" ratio="12" rot="R180">MOSI</text>
-<text x="4.826" y="-1.778" size="1.27" layer="95" font="vector" ratio="12" rot="R180">GND</text>
-<pin name="+V" x="7.62" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="MISO" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="SCK" x="-7.62" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="RST" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="MOSI" x="7.62" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="GND" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CON_HEADER_PRG_AVR_ICSP" prefix="J">
-<description>2x3 AVR ICSP programming header</description>
-<gates>
-<gate name="J" symbol="PRG_ICSP_AVR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH" package="HEADER_PRG_2X03">
-<connects>
-<connect gate="J" pin="+V" pad="2"/>
-<connect gate="J" pin="GND" pad="6"/>
-<connect gate="J" pin="MISO" pad="1"/>
-<connect gate="J" pin="MOSI" pad="4"/>
-<connect gate="J" pin="RST" pad="5"/>
-<connect gate="J" pin="SCK" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD" package="M2X3_SMD">
-<connects>
-<connect gate="J" pin="+V" pad="2"/>
-<connect gate="J" pin="GND" pad="6"/>
-<connect gate="J" pin="MISO" pad="1"/>
-<connect gate="J" pin="MOSI" pad="4"/>
-<connect gate="J" pin="RST" pad="5"/>
-<connect gate="J" pin="SCK" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -34621,6 +34456,115 @@ http://dangerousprototypes.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="AVRISP">
+<wire x1="-2.54" y1="3.048" x2="-1.778" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="3.81" x2="1.778" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.778" y1="3.81" x2="2.54" y2="3.048" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.048" x2="2.54" y2="1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.778" x2="2.032" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.27" x2="2.54" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.032" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.048" x2="1.778" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-3.81" x2="-1.778" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-3.81" x2="-2.54" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.778" x2="-2.032" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.27" x2="-2.54" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.032" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.54" y2="1.778" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.048" width="0.127" layer="21"/>
+<pad name="3" x="-1.27" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="4" x="1.27" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
+<pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
+<text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
+</package>
+<package name="AVRISP-BOX">
+<pad name="3" x="-1.143" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="4" x="1.143" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="2" x="1.397" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="1" x="-1.397" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="5" x="-1.397" y="-2.54" drill="0.9" diameter="1.6256"/>
+<pad name="6" x="1.397" y="-2.54" drill="0.9" diameter="1.6256"/>
+<text x="-6.048" y="-2.948" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="-4.4" y1="7.6" x2="4.4" y2="7.6" width="0.127" layer="21"/>
+<wire x1="4.4" y1="7.6" x2="4.4" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="4.4" y1="-7.6" x2="-4.4" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-7.6" x2="-4.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-1.5" x2="-4.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="1.5" x2="-4.4" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="1.5" x2="-3.3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="1.5" x2="-3.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.5" x2="-4.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="6.5" x2="3.2" y2="6.5" width="0.127" layer="21"/>
+<wire x1="3.2" y1="6.5" x2="3.2" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-6.5" x2="-3.2" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-6.5" x2="-3.2" y2="6.5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AVRISP">
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<pin name="MISO" x="-12.7" y="2.54" length="middle" direction="in"/>
+<pin name="SCK" x="-12.7" y="0" length="middle" direction="out"/>
+<pin name="RST" x="-12.7" y="-2.54" length="middle" direction="out"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="MOSI" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AVRISP" prefix="ISP">
+<description>&lt;b&gt;AVR ISP HEADER&lt;/b&gt;
+&lt;br&gt;
+Standard 6 pin header for AVR programming</description>
+<gates>
+<gate name="G$1" symbol="AVRISP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-6" package="AVRISP">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-BOX" package="AVRISP-BOX">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -34642,7 +34586,7 @@ http://dangerousprototypes.com</description>
 <part name="PROG" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="MCU" library="ESP8266-ESP12" deviceset="ESP8266_ESP-12" device=""/>
+<part name="ESP8266" library="ESP8266-ESP12" deviceset="ESP8266_ESP-12" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="??R"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -34660,14 +34604,14 @@ http://dangerousprototypes.com</description>
 <part name="GOLD_ORB_SM1" library="NBitWonder" deviceset="OSHWLOGO" device="_GOLD_ORB_LG"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="12K"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="ISCP" library="dp_devices" deviceset="CON_HEADER_PRG_AVR_ICSP" device="-PTH"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="ICSPPWR" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="ISPPWR" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="ISP" library="adafruit" deviceset="AVRISP" device="-6"/>
 </parts>
 <sheets>
 <sheet>
@@ -34695,7 +34639,7 @@ http://dangerousprototypes.com</description>
 <attribute name="NAME" x="209.804" y="137.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.884" y="137.541" size="1.778" layer="96"/>
 </instance>
-<instance part="MCU" gate="G$1" x="144.78" y="93.98"/>
+<instance part="ESP8266" gate="G$1" x="144.78" y="93.98"/>
 <instance part="R1" gate="G$1" x="50.8" y="83.82"/>
 <instance part="GND5" gate="1" x="33.02" y="12.7"/>
 <instance part="+3V1" gate="G$1" x="106.68" y="104.14"/>
@@ -34725,7 +34669,6 @@ http://dangerousprototypes.com</description>
 <instance part="GOLD_ORB_SM1" gate="G$1" x="243.84" y="165.1"/>
 <instance part="R7" gate="G$1" x="165.1" y="78.74" rot="R270"/>
 <instance part="GND7" gate="1" x="165.1" y="68.58"/>
-<instance part="ISCP" gate="J" x="35.56" y="129.54"/>
 <instance part="+3V4" gate="G$1" x="58.42" y="144.78"/>
 <instance part="GND8" gate="1" x="50.8" y="119.38"/>
 <instance part="+3V6" gate="G$1" x="233.68" y="144.78" smashed="yes">
@@ -34738,7 +34681,8 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="223.52" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="208.28" y="129.54"/>
-<instance part="ICSPPWR" gate="A" x="68.58" y="132.08"/>
+<instance part="ISPPWR" gate="A" x="68.58" y="132.08"/>
+<instance part="ISP" gate="G$1" x="30.48" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -34770,7 +34714,7 @@ http://dangerousprototypes.com</description>
 <junction x="53.34" y="160.02"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="G$1" pin="GND"/>
+<pinref part="ESP8266" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="152.4" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="83.82" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
@@ -34793,16 +34737,16 @@ http://dangerousprototypes.com</description>
 <wire x1="165.1" y1="73.66" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ISCP" gate="J" pin="GND"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="43.18" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="127" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="208.28" y1="132.08" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ISP" gate="G$1" pin="GND"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="45.72" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="127" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -34825,7 +34769,7 @@ http://dangerousprototypes.com</description>
 <label x="27.94" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ICSPPWR" gate="A" pin="3"/>
+<pinref part="ISPPWR" gate="A" pin="3"/>
 <wire x1="66.04" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="129.54" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="58.42" y="121.92" size="1.778" layer="95" rot="R90"/>
@@ -34834,11 +34778,11 @@ http://dangerousprototypes.com</description>
 <net name="+3V3" class="0">
 <segment>
 <wire x1="106.68" y1="96.52" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="CH_PD"/>
+<pinref part="ESP8266" gate="G$1" pin="CH_PD"/>
 <wire x1="121.92" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
 <junction x="106.68" y="96.52"/>
 <wire x1="106.68" y1="96.52" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="VCC"/>
+<pinref part="ESP8266" gate="G$1" pin="VCC"/>
 <wire x1="106.68" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
@@ -34875,7 +34819,7 @@ http://dangerousprototypes.com</description>
 <wire x1="233.68" y1="142.24" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ICSPPWR" gate="A" pin="1"/>
+<pinref part="ISPPWR" gate="A" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="66.04" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="134.62" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
@@ -34897,14 +34841,9 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="TXD"/>
+<pinref part="ESP8266" gate="G$1" pin="TXD"/>
 <wire x1="152.4" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
 <label x="154.94" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ISCP" gate="J" pin="MOSI"/>
-<wire x1="43.18" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
-<label x="48.26" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SENSOR_CONN" gate="G$1" pin="6"/>
@@ -34912,22 +34851,27 @@ http://dangerousprototypes.com</description>
 <wire x1="218.44" y1="116.84" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="218.44" y="124.46" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="ISP" gate="G$1" pin="MISO"/>
+<wire x1="17.78" y1="132.08" x2="10.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="10.16" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="RXD"/>
+<pinref part="ESP8266" gate="G$1" pin="RXD"/>
 <wire x1="152.4" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="154.94" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ISCP" gate="J" pin="MISO"/>
-<wire x1="27.94" y1="132.08" x2="15.24" y2="132.08" width="0.1524" layer="91"/>
-<label x="15.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SENSOR_CONN" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="104.14" x2="236.22" y2="104.14" width="0.1524" layer="91"/>
 <label x="231.14" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ISP" gate="G$1" pin="MOSI"/>
+<wire x1="45.72" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
+<label x="48.26" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -34943,9 +34887,9 @@ http://dangerousprototypes.com</description>
 <label x="193.04" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ISCP" gate="J" pin="SCK"/>
-<wire x1="27.94" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
-<label x="15.24" y="129.54" size="1.778" layer="95"/>
+<pinref part="ISP" gate="G$1" pin="SCK"/>
+<wire x1="17.78" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
+<label x="10.16" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -34961,9 +34905,9 @@ http://dangerousprototypes.com</description>
 <label x="193.04" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ISCP" gate="J" pin="RST"/>
-<wire x1="27.94" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
-<label x="15.24" y="127" size="1.778" layer="95"/>
+<pinref part="ISP" gate="G$1" pin="RST"/>
+<wire x1="17.78" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<label x="10.16" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -34974,7 +34918,7 @@ http://dangerousprototypes.com</description>
 <label x="139.7" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="G$1" pin="REST"/>
+<pinref part="ESP8266" gate="G$1" pin="REST"/>
 <wire x1="121.92" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="111.76" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -35002,7 +34946,7 @@ http://dangerousprototypes.com</description>
 <label x="12.7" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="G$1" pin="GPIO0"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO0"/>
 <wire x1="152.4" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <label x="154.94" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -35018,7 +34962,7 @@ http://dangerousprototypes.com</description>
 <junction x="228.6" y="109.22"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="G$1" pin="GPIO2"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO2"/>
 <wire x1="152.4" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="154.94" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -35030,7 +34974,7 @@ http://dangerousprototypes.com</description>
 <label x="58.42" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="G$1" pin="GPIO16"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO16"/>
 <wire x1="121.92" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="111.76" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -35047,7 +34991,7 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="GPIO15"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO15"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="86.36" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
@@ -35055,7 +34999,7 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="GPIO14" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="GPIO14"/>
+<pinref part="ESP8266" gate="G$1" pin="GPIO14"/>
 <wire x1="121.92" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 <label x="111.76" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -35071,9 +35015,9 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="ISCP" gate="J" pin="+V"/>
-<pinref part="ICSPPWR" gate="A" pin="2"/>
-<wire x1="43.18" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="ISP" gate="G$1" pin="VCC"/>
+<pinref part="ISPPWR" gate="A" pin="2"/>
+<wire x1="45.72" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
