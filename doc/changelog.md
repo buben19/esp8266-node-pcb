@@ -22,3 +22,14 @@
  - GPIO0 is used only for entering programming mode. Not used in RJ-11 connector.
  - RJ-11 is connected to GPIO2 and GPIO14 pins.
  - ISP voltage pin is connected to 3-pin jumper. User can choose to connect it to 3V3, VIN or disconnect it.
+
+## v0.1.2
+
+ - Added 12K pull-up resistor to GPIO0 and GPIO2 pins.
+ - Rearranged some components.
+ - RJ-11 is connected to GPIO13 and GPIO14 pins.
+ - Added "mqopen.org" label.
+ - Removed personal email address.
+ - CH_PD pulled up with 12K resistor.
+ - NRST pulled up with 12K resistor and added 100nF capacitor.
+ - Smaller openhw logo.
