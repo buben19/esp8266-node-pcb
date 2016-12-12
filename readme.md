@@ -26,4 +26,4 @@ Design of esp8266 board PCB. This should be base design for esp8266 IoT devices.
 
 ## Get board
 
-You can order PCB on this [link](http://dirtypcbs.com/view.php?share=19763&accesskey=6e3f3d88e4883da71c13e3f088d2c618).
+You can order PCB on this [link](http://dirtypcbs.com/store/designer/details/9988/941/esp8266-pcb-v0-1-2-zip).
