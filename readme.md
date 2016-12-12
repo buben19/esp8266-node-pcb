@@ -20,9 +20,9 @@ Design of esp8266 board PCB. This should be base design for esp8266 IoT devices.
 
 ![Top view](img/node-top.jpg "Top view")
 
-![Bottom view](img/node-bottom.jpg "Bottom view")
+![Bottom view](img/esp8266-node-bottom.jpg "Bottom view")
 
-![Board design](img/board.png "Node board design")
+![Board design](img/esp8266-board.png "Node board design")
 
 ## Get board
 
